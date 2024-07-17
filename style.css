@@ -1,0 +1,19 @@
+@font-face { 
+  font-family: "Ubuntu-B";
+  src: url("Ubuntu-B.ttf"); 
+}
+html, body {
+  background-color:darkgray;
+  height: 100%;
+  width: 100%;
+}
+th, td {
+  font-size: 50px;
+  font-family: Ubuntu-B
+}
+button {
+  background-color:darkgray;
+  font-size: 100%;
+  font-family: Ubuntu-B;
+  width: 100%
+}

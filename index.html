@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Stellenwert Tabelle</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+  table,
+  th,
+  th {
+    border: 1px solid black;
+  }
+</style>
+
+<body>
+  <script src="script.js"></script>
+
+  <table style="width:100%">
+    <tr>
+      <th>stellenwert</th>
+      <th>128</th>
+      <th>64</th>
+      <th>32</th>
+      <th>16</th>
+      <th>8</th>
+      <th>4</th>
+      <th>2</th>
+      <th>1</th>
+    </tr>
+    <tr>
+      <th>binäre Ziffer</th>
+      <th>
+        <center> <button onclick="B1()" id="B1">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B2()" id="B2">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B3()" id="B3">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B4()" id="B4">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B5()" id="B5">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B6()" id="B6">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B7()" id="B7">0 </button> </center>
+      </th>
+      <th>
+        <center> <button onclick="B8()" id="B8">0 </button> </center>
+      </th>
+    </tr>
+    <tr>
+      <th>Divisionsrest</th>
+      <th>
+        <center id="A1"> 0 </center>
+      </th>
+      <th>
+        <center id="A2"> 0 </center>
+      </th>
+      <th>
+        <center id="A3"> 0 </center>
+      </th>
+      <th>
+        <center id="A4"> 0 </center>
+      </th>
+      <th>
+        <center id="A5"> 0 </center>
+      </th>
+      <th>
+        <center id="A6"> 0 </center>
+      </th>
+      <th>
+        <center id="A7"> 0 </center>
+      </th>
+      <th>
+        <center id="A8"> 0 </center>
+      </th>
+    </tr>
+  </table>
+  <center> <button onclick="Re()" id="Re">Reset</button> </center>
+</body>
+
+</html>
